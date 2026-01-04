@@ -1,0 +1,21 @@
+name: bnm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - nbconvert
+  - papermill
+  - nbval
+  - pip
+  - pip:
+    - nbqa
+    - black
+    - ruff
+    - pytest
+    - pre-commit
