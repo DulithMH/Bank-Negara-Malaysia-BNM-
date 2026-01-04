@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+.envrc
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+# Keep example data, ignore heavy/binary data tracked with LFS or DVC
+*.csv
+*.parquet
+
+# Jupyter
+profile_default/
+ipython_config.py
+jupyter_notebook_config.py
+.nbgrader/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# Notebook outputs (if you strip outputs during commit, adjust)
+*.nb.html
